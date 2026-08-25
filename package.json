@@ -1,0 +1,95 @@
+{
+    "id": "scan-menu-cloud-tools-admin",
+    "name": "scan-menu-cloud-tools-admin",
+    "version": "1.0.0",
+    "displayName": "味聚缘智能点餐系统，进店扫码点餐 (服务端)",
+    "description": "适用于餐饮、奶茶、蛋糕店等场景。可扫预览图二维码进行点餐演示。如有bug请反馈给我，我会及时修复3138831480",
+    "keywords": [
+        "vk",
+        "餐饮系统",
+        "扫码点餐"
+    ],
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "",
+    "author": "ByAdmin",
+    "license": "Apache",
+    "homepage": "",
+    "dependencies": {
+        "element-ui": "2.15.13",
+        "umy-ui": "1.1.6",
+        "vk-unicloud-admin-ui": "^1.17.55",
+		"vue-countupjs": "^1.0.0"
+    },
+    "engines": {
+        "HBuilderX": "^3.6.11"
+    },
+    "dcloudext": {
+        "sale": {
+            "regular": {
+                "price": "0.00"
+            },
+            "sourcecode": {
+                "price": "0.00"
+            }
+        },
+        "contact": {
+            "qq": "3138831480"
+        },
+        "declaration": {
+            "ads": "无",
+            "data": "插件不采集任何数据",
+            "permissions": "无"
+        },
+        "npmurl": "",
+        "type": "unicloud-template-project"
+    },
+    "uni_modules": {
+        "platforms": {
+            "cloud": {
+                "tcb": "y",
+                "aliyun": "y"
+            },
+            "client": {
+                "App": {
+                    "app-vue": "u",
+                    "app-nvue": "u"
+                },
+                "H5-mobile": {
+                    "Safari": "u",
+                    "Android Browser": "u",
+                    "微信浏览器(Android)": "u",
+                    "QQ浏览器(Android)": "u"
+                },
+                "H5-pc": {
+                    "Chrome": "y",
+                    "IE": "u",
+                    "Edge": "y",
+                    "Firefox": "u",
+                    "Safari": "u"
+                },
+                "小程序": {
+                    "微信": "u",
+                    "阿里": "u",
+                    "百度": "u",
+                    "字节跳动": "u",
+                    "QQ": "u",
+                    "钉钉": "u",
+                    "快手": "u",
+                    "飞书": "u",
+                    "京东": "u"
+                },
+                "快应用": {
+                    "华为": "u",
+                    "联盟": "u"
+                },
+                "Vue": {
+                    "vue2": "u",
+                    "vue3": "u"
+                }
+            }
+        }
+    }
+}

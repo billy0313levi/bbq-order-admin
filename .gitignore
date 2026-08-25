@@ -1,0 +1,22 @@
+# 依赖
+node_modules/
+node_modules.rar
+uniCloud-alipay/cloudfunctions/**/node_modules/
+
+# 构建产物
+unpackage/
+dist/
+
+# IDE / 本地配置
+.hbuilderx/
+.idea/
+.vscode/
+*.local
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志与临时文件
+*.log
+*.tmp
